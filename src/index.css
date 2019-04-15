@@ -63,13 +63,19 @@ code {
 
 .top-link {
   align-self: center;
-  width: 50%;
+  width: 25%;
   display: inline;
 }
 
 .top-nav {
   list-style: none;
   width:100%;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0 auto;
+
 }
 
 #yaldy {
