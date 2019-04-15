@@ -48,6 +48,7 @@ code {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto ;
+  justify-content: space-around;
 }
 
 /* Clearfix */
@@ -70,7 +71,7 @@ code {
 .top-nav {
   list-style: none;
   width:100%;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 ul {
