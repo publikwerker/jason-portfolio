@@ -14,15 +14,15 @@ export default class Header extends React.Component {
     const topLogo = require(('./images/yaldabaothinsta.jpg'));
     const pubPik = require(('./images/publikwerker15r.jpg'));
     const aboutLink = <Link to="/about">
-        <li className="top-link">About</li>
+        <li className="top-link button">About</li>
       </Link>;
     const homeLink = <Link to="/">
-         <li className="top-link">Home</li>
+         <li className="top-link button">Home</li>
        </Link>;
     const contactLink = <Link to="/contact">
-        <li className="top-link">Contact</li>
+        <li className="top-link button">Contact</li>
        </Link>;
-    const werksLink = <a href="https://www.publikwerks.com">Publikwerks</a>
+    const werksLink = <a className="top-link button" href="https://www.publikwerks.com">Publikwerks</a>
     return (
       <header role="banner" className="header">
         <nav role="navigation">
