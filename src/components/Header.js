@@ -12,7 +12,7 @@ export default class Header extends React.Component {
     contactCheck = (this.props.location.pathname === '/contact');
     homeCheck = (this.props.location.pathname === '/');
     const topLogo = require(('./images/yaldabaothinsta.jpg'));
-    const pubPik = require(('./images/publikwerker15r.jpg'));
+    const pubPik = require(('./images/HeadShotzJasonsqbw.jpg'));
     const aboutLink = <Link to="/about">
         <li className="top-link button">About</li>
       </Link>;
