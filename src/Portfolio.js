@@ -4,6 +4,7 @@ import Header from './components/Header.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
 import Body from './components/Body.js';
+import Footer from './components/Footer.js';
 
 export default class Portfolio extends Component {
   
@@ -15,6 +16,7 @@ export default class Portfolio extends Component {
           <Route exact path="/" component={Body} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route path="/" component={Footer} />
         </Router>
       </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 export default class Header extends React.Component {
   render() {
 
@@ -9,8 +10,6 @@ export default class Header extends React.Component {
     aboutCheck = (this.props.location.pathname === '/about');
     contactCheck = (this.props.location.pathname === '/contact');
     homeCheck = (this.props.location.pathname === '/');
-    const topLogo = require(('./images/yaldabaothinsta.jpg'));
-    const pubPik = require(('./images/HeadShotzJasonsqbw.jpg'));
     const aboutLink = <Link to="/about">
         <li className="top-link button">About</li>
       </Link>;
@@ -31,14 +30,6 @@ export default class Header extends React.Component {
             {werksLink}
           </ul>
         </nav>
-        <img 
-          id="yaldy" 
-          className="not-mobile"  
-          alt="worm with the head of a lion" 
-          src={topLogo} />
-        <img id="my-picture" alt="jason standing in a police lineup wearing a suit vest and top hat" src={pubPik} />
-        <h1 className="header-title">Jason Hoffman</h1>
-        <h2 className="bi-line">full-stack developer | fine artist</h2>
       </header>
     )
   }

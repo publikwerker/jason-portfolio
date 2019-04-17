@@ -17,7 +17,7 @@ export default class Body extends React.Component {
         </div>) })
     return(<main>
       <div className="main-body">
-      <h2>Past Projects:   </h2>
+      <h2 className=" body-display">Past Projects:   </h2>
       {projectDisplay}
       </div>
     </main>

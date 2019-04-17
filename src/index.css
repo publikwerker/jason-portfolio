@@ -1,14 +1,21 @@
+.about-image {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+}
 .bi-line {
-  width: 90%;
   max-width: 400px;
   margin: 0 auto;
   font-size: 90%;
+  text-align: center;
 }
 
 body {
-  margin: 0;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
   padding: 0;
-  font-family: Lato, Helvetica, sans-serif;
+  font-family: Lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(27, 27, 27);
@@ -18,11 +25,13 @@ body {
   font-size: 90%; 
 }
 
+.body-display {
+  margin-top: 100px;
+}
+
 .button {
-  color: rgb(55, 55, 55);
-  border:rgb(55, 55, 55) 2px solid;
   background: white;
-  border-radius: 2px;
+  color: rgb(55, 55, 55);
   font-weight: bolder;
   padding: 2px 10px;
   margin-top: 10px;
@@ -30,10 +39,9 @@ body {
 }
 
 .button:hover {
-  background: #eceeee;
+  border-radius: 2px;
   color: #424242;
-  padding: 3px 11px;
-  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 5px 20px 0 rgba(0,0,0,0.19);
 }
 
 code {
@@ -41,38 +49,73 @@ code {
     monospace;
 }
 
+.contact-body {
+  width: 100%;
+  max-width: 600px;
+  margin: 70px auto;
+}
+
 .contact-icon {
   height: 20px;
   margin-right: 5px;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 20px;
 }
 
 .contact-text {
   vertical-align: top;
 }
 
-h1 {
-  width: 90%;
+.header-title {
+  text-align: center;
+}
+
+.footer {
+  text-justify: center;
+  background: white;
+  width: 80%;
   margin: auto;
-  font-size: 95%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-text {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
   font: 700;
+}
+
+h3 {
+  width: 100%;
+  text-justify: center;
+  margin: auto;
 }
 
 .header {
   text-align: center;
-  padding-top: 20px;
+  top: 0;
+  background: white;
   font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.header-title {
-  display: inline-block;
-  justify-self: center;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
+  position: fixed;
 }
 
 .main-body {
   width: 80%;
-  max-width: 600px;
-  margin: 20px auto;
+  max-width: 700px;
+  margin: 30px auto 50px;
 }
 
 #my-picture {
@@ -89,7 +132,7 @@ h1 {
   border: 1px solid black;
   border-radius: 3px;
   width: 90%;
-  margin: 20px auto;
+  margin: 30px auto 0px;
   padding: 10px;
   text-align: center;
 }
@@ -161,8 +204,35 @@ ul {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 600px) {
   /* .not-mobile {
     display: block;
   } */
+
+  .contact-info {
+    width: 70%;
+    margin: auto;
+  }
+
+  .hero-block {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* .not-mobile {
+    display: block;
+  } */
+
+  .contact-info {
+    width: 50%;
+    margin: auto;
+  }
+
+  .hero-block {
+    width: 35%;
+    margin: auto;
+  }
+
 }
