@@ -38,7 +38,7 @@ export default class Header extends React.Component {
           src={topLogo} />
         <img id="my-picture" alt="jason standing in a police lineup wearing a suit vest and top hat" src={pubPik} />
         <h1 className="header-title">Jason Hoffman</h1>
-        <h2 className="bi-line">full-stack developer | entrepreneur | fine artist</h2>
+        <h2 className="bi-line">full-stack developer | fine artist</h2>
       </header>
     )
   }
