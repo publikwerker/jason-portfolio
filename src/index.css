@@ -3,6 +3,7 @@
   max-width: 700px;
   margin: 20px auto;
 }
+
 .bi-line {
   max-width: 400px;
   margin: 0 auto;
@@ -23,6 +24,7 @@ body {
 
 .body-copy {
   font-size: 90%; 
+  text-align: left;
 }
 
 .body-display {
@@ -85,6 +87,7 @@ code {
 
 .footer-text {
   text-align: center;
+  font-size: 11px;
   width: 100%;
   margin: auto;
 }
