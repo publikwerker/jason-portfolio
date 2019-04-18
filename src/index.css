@@ -1,18 +1,49 @@
+.about-image {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
 .bi-line {
-  width: 90%;
   max-width: 400px;
   margin: 0 auto;
   font-size: 90%;
+  text-align: center;
 }
 
 body {
-  margin: 0;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(27, 27, 27);
+}
+
+.body-copy {
+  font-size: 90%; 
+  text-align: left;
+}
+
+.body-display {
+  margin-top: 100px;
+}
+
+.button {
+  background: white;
+  color: rgb(55, 55, 55);
+  font-weight: bolder;
+  padding: 2px 10px;
+  margin-top: 10px;
+  font-size: 105%;
+}
+
+.button:hover {
+  border-radius: 2px;
+  color: #424242;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 5px 20px 0 rgba(0,0,0,0.19);
 }
 
 code {
@@ -20,26 +51,117 @@ code {
     monospace;
 }
 
-.header {
+.contact-body {
+  width: 100%;
+  max-width: 600px;
+  margin: 70px auto;
+}
+
+.contact-icon {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.contact-info {
   text-align: center;
+  font-size: 12px;
   padding-top: 20px;
-  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contact-text {
+  vertical-align: top;
 }
 
 .header-title {
-  display: inline-block;
-  justify-self: center;
-  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+  text-justify: center;
+  background: white;
+  width: 80%;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 11px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  font: 700;
+}
+
+h3 {
+  width: 100%;
+  text-justify: center;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  top: 0;
+  background: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 80%;
+  margin: auto;
+  position: fixed;
+}
+
+.main-body {
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto 50px;
 }
 
 #my-picture {
   display: block;
   margin: 0 auto;
-  width: 150px;
+  width: 125px;
 }
 
 .not-mobile {
   display: none;
+}
+
+.project-box {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 90%;
+  margin: 30px auto 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.project-image {
+  width: 50%;
+  max-width: 700px;
+}
+
+.project-link {
+  display: inline;
+  margin: 0 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 80%;
+  color: blue;
+}
+
+.project-stack {
+  font-weight: 500;
+  font-style: oblique;
+  font-size: 90%;
 }
 
 .row {
@@ -48,6 +170,7 @@ code {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto ;
+  justify-content: space-around;
 }
 
 /* Clearfix */
@@ -62,14 +185,20 @@ code {
 }
 
 .top-link {
-  align-self: center;
-  width: 50%;
-  display: inline;
+  display: inline-block;
+  text-decoration: none;
+
 }
 
 .top-nav {
   list-style: none;
   width:100%;
+  margin: 0 auto 20px;
+}
+
+ul {
+  margin: 0 auto;
+
 }
 
 #yaldy {
@@ -78,8 +207,35 @@ code {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 600px) {
   /* .not-mobile {
     display: block;
   } */
+
+  .contact-info {
+    width: 70%;
+    margin: auto;
+  }
+
+  .hero-block {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* .not-mobile {
+    display: block;
+  } */
+
+  .contact-info {
+    width: 50%;
+    margin: auto;
+  }
+
+  .hero-block {
+    width: 35%;
+    margin: auto;
+  }
+
 }
