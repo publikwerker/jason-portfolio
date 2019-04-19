@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .about-image {
   width: 100%;
   max-width: 700px;
@@ -12,6 +16,7 @@
 }
 
 body {
+  background-color:#fdfdfd;
   text-align: center;
   width: 80%;
   margin: 0px auto;
@@ -25,6 +30,8 @@ body {
 .body-copy {
   font-size: 90%; 
   text-align: left;
+  max-width: 700px;
+  text-indent: 20px;
 }
 
 .body-display {
@@ -53,7 +60,7 @@ code {
 
 .contact-body {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   margin: 70px auto;
 }
 
@@ -72,13 +79,10 @@ code {
   vertical-align: top;
 }
 
-.header-title {
-  text-align: center;
-}
-
 .footer {
   text-justify: center;
-  background: white;
+  background: #282c34;
+  color: white;
   width: 80%;
   margin: auto;
   position: fixed;
@@ -99,10 +103,18 @@ h1 {
   font: 700;
 }
 
+h2 {
+  color: #282c34;
+  text-transform: uppercase;
+}
+
 h3 {
   width: 100%;
   text-justify: center;
   margin: auto;
+  color: #282c34;
+  font-size: 90%;
+  text-transform: uppercase;
 }
 
 .header {
@@ -113,6 +125,10 @@ h3 {
   width: 80%;
   margin: auto;
   position: fixed;
+}
+
+.header-title {
+  text-align: center;
 }
 
 .main-body {
@@ -158,10 +174,18 @@ h3 {
   color: blue;
 }
 
+.project-screenshot {
+  width: 100%;
+}
+
 .project-stack {
   font-weight: 500;
   font-style: oblique;
   font-size: 90%;
+}
+
+.project-title {
+  margin-top: 20px;
 }
 
 .row {
@@ -184,10 +208,16 @@ h3 {
   clear: both;
 }
 
+.smaller {
+  font-size: 90%;
+  text-transform: lowercase; 
+  font-style: oblique;
+}
+
 .top-link {
   display: inline-block;
   text-decoration: none;
-
+  text-transform: uppercase;
 }
 
 .top-nav {
@@ -212,15 +242,7 @@ ul {
     display: block;
   } */
 
-  .contact-info {
-    width: 70%;
-    margin: auto;
-  }
 
-  .hero-block {
-    width: 30%;
-    margin: auto;
-  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -228,14 +250,6 @@ ul {
     display: block;
   } */
 
-  .contact-info {
-    width: 50%;
-    margin: auto;
-  }
 
-  .hero-block {
-    width: 35%;
-    margin: auto;
-  }
 
 }
