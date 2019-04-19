@@ -31,6 +31,7 @@ body {
   font-size: 90%; 
   text-align: left;
   max-width: 700px;
+  text-indent: 20px;
 }
 
 .body-display {
@@ -173,10 +174,18 @@ h3 {
   color: blue;
 }
 
+.project-screenshot {
+  width: 100%;
+}
+
 .project-stack {
   font-weight: 500;
   font-style: oblique;
   font-size: 90%;
+}
+
+.project-title {
+  margin-top: 20px;
 }
 
 .row {
@@ -197,6 +206,12 @@ h3 {
 
 .row::after {
   clear: both;
+}
+
+.smaller {
+  font-size: 90%;
+  text-transform: lowercase; 
+  font-style: oblique;
 }
 
 .top-link {
