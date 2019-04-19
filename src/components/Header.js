@@ -6,15 +6,15 @@ export default class Header extends React.Component {
 
     // these variables check the URL location, 
     // and render nav buttons only if not on that page already
-    let contactCheck, aboutCheck, homeCheck;
-    aboutCheck = (this.props.location.pathname === '/about');
+    let contactCheck, aboutCheck, werkCheck;
+    aboutCheck = (this.props.location.pathname === '/');
     contactCheck = (this.props.location.pathname === '/contact');
-    homeCheck = (this.props.location.pathname === '/');
-    const aboutLink = <Link to="/about">
-        <li className="top-link button">About</li>
+    werkCheck = (this.props.location.pathname === '/werk');
+    const projectLink = <Link to="/werk">
+        <li className="top-link button">Projects</li>
       </Link>;
     const homeLink = <Link to="/">
-         <li className="top-link button">Home</li>
+         <li className="top-link button">About</li>
        </Link>;
     const contactLink = <Link to="/contact">
         <li className="top-link button">Contact</li>
@@ -24,8 +24,8 @@ export default class Header extends React.Component {
       <header role="banner" className="header">
         <nav role="navigation">
           <ul className="top-nav row">
-            {!aboutCheck && aboutLink}
-            {!homeCheck && homeLink}
+            {!werkCheck && projectLink}
+            {!aboutCheck && homeLink}
             {!contactCheck && contactLink}
             {werksLink}
           </ul>

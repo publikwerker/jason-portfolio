@@ -13,8 +13,8 @@ export default class Portfolio extends Component {
       <div className="Portfolio">
         <Router >
           <Route path="/" component={Header} />
-          <Route exact path="/" component={Body} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={About} />
+          <Route exact path="/werk" component={Body} />
           <Route exact path="/contact" component={Contact} />
           <Route path="/" component={Footer} />
         </Router>
