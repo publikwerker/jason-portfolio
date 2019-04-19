@@ -28,8 +28,8 @@ body {
 }
 
 .body-copy {
-  font-size: 90%; 
   text-align: left;
+  font-weight: 500;
   max-width: 700px;
   text-indent: 20px;
 }
@@ -61,7 +61,7 @@ code {
 .contact-body {
   width: 100%;
   max-width: 700px;
-  margin: 70px auto;
+  margin: 80px auto;
 }
 
 .contact-icon {
@@ -71,8 +71,9 @@ code {
 
 .contact-info {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 20px;
+  margin-top: 20px;
 }
 
 .contact-text {
@@ -91,7 +92,7 @@ code {
 
 .footer-text {
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   width: 100%;
   margin: auto;
 }
@@ -129,6 +130,10 @@ h3 {
 
 .header-title {
   text-align: center;
+}
+
+.hero-block {
+  margin-top: 30px;
 }
 
 .main-body {

@@ -13,8 +13,8 @@ export default class Body extends React.Component {
           <img className="project-image" alt="the app as viewed in widescreen and mobile format" src={project.mockUp}></img>
           <p className="project-description body-copy">{project.description}</p>
           <p className="project-stack">{project.stack}</p>
-          <a className="project-github project-link" href={project.github}>Github</a> 
-          <a className="project-demo project-link" href={project.demo}>Demo</a>
+          <a className="project-github project-link" href={project.github} target="_blank">Code</a> 
+          <a className="project-demo project-link" href={project.demo} target="_blank">Demo</a>
         </div>) })
     return(<main>
       <div className="main-body">

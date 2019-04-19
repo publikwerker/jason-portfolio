@@ -29,6 +29,6 @@ export const projectList = [
     description: 'LearnVenture is a tool to build fun learning programs that pose unique questions based upon previous choices. You can build the storyline with videos, text, and multiple endings. In this project, I had the additional role of Design Lead. Try it out! username: fryshake, password: password123',
     stack: 'React, Node.js, Express, MongooseDB, d3 Cytoscape, Redux, JWT',
     github: 'https://github.com/thinkful-ei27/client-5NodeBodies',
-    demo: 'https://damp-hamlet-47102.herokuapp.com/'
+    demo: 'https://www.learnventure.org/'
   }
 ];
