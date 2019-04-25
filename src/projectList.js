@@ -20,8 +20,8 @@ export const projectList = [
     mockUp: traffMock,
     description: 'A learning app designed to teach individuals the meaning of common US traffic signs. Using a spaced repetition algorithm, users are able to focus on the signs they are less familiar with. Try it out! username: test, password: Password123',
     stack: 'React, Node.js, Express, MongooseDB, JWT',
-    github: 'https://github.com/thinkful-ei27/jason-derek-spaced-repetition-client',
-    demo: 'https://traffics-cool.herokuapp.com/'
+    github: 'https://github.com/publikwerker/jason-derek-spaced-repetition-client',
+    demo: 'https://www.traffics.cool/'
   }, {
     title:'LearnVenture',
     screenshot: learnShot,
