@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://publikwerker.github.io/jason-portfolio",
+  "homepage": "https://publikwerker.com",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
