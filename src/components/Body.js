@@ -4,7 +4,6 @@ import {projectList} from '../projectList';
 export default class Body extends React.Component {
 
   render() {
-    console.log(projectList);
     let projectDisplay=[];
     projectList.forEach((project, index) => {
       projectDisplay.push(<div key={index} className="project-box"> 
