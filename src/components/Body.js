@@ -7,7 +7,6 @@ export default class Body extends React.Component {
     let projectDisplay=[];
     projectList.forEach((project, index) => {
       projectDisplay.push(<section key={index} className="project-box"> 
-          <img className="project-screenshot" alt="a close up of some nice design" src={project.screenshot}></img>
           <h3 className="project-title">{project.title}</h3>
           <img className="project-image" alt="the app as viewed in widescreen and mobile format" src={project.mockUp}></img>
           <p className="project-description body-copy">{project.description}</p>
