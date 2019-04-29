@@ -8,7 +8,7 @@ import HeroBlock from './HeroBlock.js';
 
 export default class Contact extends React.Component {
   render() {
-    return(<div className="contact-body">
+    return(<main className="contact-body">
       <p className="contact-text">	Yes, I welcome custom, collaborative, and commissioned work.</p>
         <HeroBlock />      
         <div className="contact-info">
@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
           <img alt="github icon" className="contact-icon" src={githubLogo}></img></a><span className="contact-text">  github.com/publikwerker</span><br />
           <a href="https://www.instagram.com/publikwerker/" target="_blank" rel="noopener noreferrer"><img alt="instagram icon" className="contact-icon" src={instaLogo}></img></a><span className="contact-text">  @publikwerker</span><br />
         </div>
-      </div>
+      </main>
     )
   }
 }

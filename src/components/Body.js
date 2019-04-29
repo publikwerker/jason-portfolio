@@ -6,7 +6,7 @@ export default class Body extends React.Component {
   render() {
     let projectDisplay=[];
     projectList.forEach((project, index) => {
-      projectDisplay.push(<div key={index} className="project-box"> 
+      projectDisplay.push(<section key={index} className="project-box"> 
           <img className="project-screenshot" alt="a close up of some nice design" src={project.screenshot}></img>
           <h3 className="project-title">{project.title}</h3>
           <img className="project-image" alt="the app as viewed in widescreen and mobile format" src={project.mockUp}></img>
@@ -14,12 +14,12 @@ export default class Body extends React.Component {
           <p className="project-stack">{project.stack}</p>
           <a className="project-github project-link" href={project.github} target="_blank">Code</a> 
           <a className="project-demo project-link" href={project.demo} target="_blank">Demo</a>
-        </div>) })
+        </section>) })
     return(<main>
-      <div className="main-body">
-      <h3 className=" body-display">Past Werk <i className="smaller">[sic].</i>:   </h3>
-      {projectDisplay}
-      </div>
+      <main className="main-body">
+        <h3 className=" body-display">Past Werk <i className="smaller">[sic].</i>:   </h3>
+        {projectDisplay}
+      </main>
     </main>
     )
   }
