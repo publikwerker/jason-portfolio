@@ -154,6 +154,7 @@ h3 {
 }
 
 .project-box {
+  display: block;
   border: 1px solid black;
   border-radius: 3px;
   width: 90%;
@@ -201,6 +202,7 @@ h3 {
   padding-right: 20px;
   margin: 0 auto ;
   justify-content: space-around;
+  align-items: stretch;
 }
 
 /* Clearfix */
@@ -212,6 +214,11 @@ h3 {
 
 .row::after {
   clear: both;
+}
+
+.showcase {
+  display: block;
+  width: 100%;
 }
 
 .smaller {
@@ -256,6 +263,32 @@ ul {
     display: block;
   } */
 
+  .main-body {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto 50px;
+  }
+
+  .project-box {
+    display: inline-block;
+    align-items: stretch;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 30%;
+    margin: 30px auto 0px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto ;
+    justify-content: space-around;
+    align-items: stretch;
+  }
 
 
 }
