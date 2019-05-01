@@ -33,6 +33,7 @@ body {
   font-weight: 500;
   max-width: 700px;
   text-indent: 20px;
+  margin: 0 auto;
 }
 
 .body-display {

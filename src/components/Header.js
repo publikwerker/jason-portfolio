@@ -19,7 +19,7 @@ export default class Header extends React.Component {
     const contactLink = <Link to="/contact">
         <li className="top-link button">Contact</li>
        </Link>;
-    const werksLink = <a className="top-link button" href="https://www.publikwerks.com" target="_blank">Publikwerks</a>
+    const werksLink = <a className="top-link button" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks</a>
     return (
       <header role="banner" className="header">
         <nav role="navigation">
