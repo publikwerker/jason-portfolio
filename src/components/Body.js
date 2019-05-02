@@ -14,14 +14,12 @@ export default class Body extends React.Component {
           <a className="project-github project-link" href={project.github} target="_blank" rel="noopener noreferrer">Code</a> 
           <a className="project-demo project-link" href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
         </section>) })
-    return(<main>
-      <main className="main-body">
+    return(<main className="main-body">
         <h3 className=" body-display">Past Werk <i className="smaller">[sic].</i>:   </h3>
         <div className="row showcase">
           {projectDisplay}
         </div>
       </main>
-    </main>
     )
   }
 }
