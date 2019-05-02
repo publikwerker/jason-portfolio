@@ -13,14 +13,14 @@ export const projectList = [
     description: 'A tarot card app with a unique turn on the traditional deck. Designed to offer more insight into patterns in our lives, the app invites the user to ask a question of the cards, to choose the number of cards to be dealt, and then to click Deal. An image and description of each card is displayed, and the user may divine whatever wisdom they may glean.',
     stack: 'React, Node.js, Express, MongooseDB, JWT, Redux',
     github: 'https://github.com/thinkful-ei27/jason-react-capstone-app',
-    demo: 'https://damp-hamlet-47102.herokuapp.com/'
+    demo: 'https://www.fortune.cards/'
   }, {
     title:'Traffic\'s Cool',
     screenshot: traffShot,
     mockUp: traffMock,
     description: 'A learning app designed to teach individuals the meaning of common US traffic signs. Using a spaced repetition algorithm, users are able to focus on the signs they are less familiar with. Try it out! username: test, password: Password123',
     stack: 'React, Node.js, Express, MongooseDB, JWT',
-    github: 'https://github.com/publikwerker/jason-derek-spaced-repetition-client',
+    github: 'https://github.com/publikwerker/traffics-cool',
     demo: 'https://www.traffics.cool/'
   }, {
     title:'LearnVenture',
