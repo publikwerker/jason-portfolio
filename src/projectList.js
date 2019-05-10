@@ -12,7 +12,7 @@ export const projectList = [
     mockUp: fortMock,
     description: 'A tarot card app with a unique turn on the traditional deck. Designed to offer more insight into patterns in our lives, the app invites the user to ask a question of the cards, to choose the number of cards to be dealt, and then to click Deal. An image and description of each card is displayed, and the user may divine whatever wisdom they may glean. Try it out! username: test, password: Password123',
     stack: 'React, Node.js, Express, MongooseDB, JWT, Redux',
-    github: 'https://github.com/thinkful-ei27/jason-react-capstone-app',
+    github: 'https://github.com/publikwerker/fortune-cards-client',
     demo: 'https://www.fortune.cards/'
   }, {
     title:'Traffic\'s Cool',
