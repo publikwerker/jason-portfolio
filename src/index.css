@@ -303,16 +303,13 @@ ul {
   }
 
   .main-body {
-    width: 90%;
-    max-width: 1500px;
+    width: 100%;
     margin: 30px auto 50px;
   }
 
   .project-box {
     display: inline-block;
     align-items: stretch;
-    border: 1px solid black;
-    border-radius: 3px;
     width: 30%;
     margin: 30px auto 0px;
     padding: 10px;
