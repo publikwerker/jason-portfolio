@@ -30,5 +30,29 @@ export const projectList = [
     stack: 'React, Node.js, Express, MongoDB, d3 Cytoscape, Redux, JWT',
     github: 'https://github.com/thinkful-ei27/client-5NodeBodies',
     demo: 'https://www.learnventure.org/'
+  }, {
+    title:'Publikwerker.com',
+    screenshot: learnShot,
+    mockUp: learnMock,
+    description: 'Yes, it is true! Publikwerker designed this very page. Although simpler than most, still a fun project. Self-promotion is key to success in this new Gig economy.',
+    stack: 'React, Node.js, JavaScript',
+    github: 'https://github.com/publikwerker/jason-portfolio',
+    demo: 'https://www.publikwerker.com/'
+  }, {
+    title:'WalterCosmopolis.com',
+    screenshot: learnShot,
+    mockUp: learnMock,
+    description: 'The World Famous Entertainer Walter Cosmopolis approached Publikwerker to create a CSS-heavy promotional site. It includes new CSS-animations, transitions, and even a background video. Although it is not compatible with older browsers, it is pretty slick.',
+    stack: 'React, Vanilla JavaScript',
+    github: 'https://github.com/publikwerker/walter_cosmopolis2.0',
+    demo: 'https://www.WalterCosmopolis.com/'
+  }, {
+    title: 'Publik Weather App',
+    screenshot: learnShot,
+    mockup: learnMock,
+    description: 'This was a fun little exercise just to explore Node some more. The web app simply takes input of city or zip and displays location and brief forecast. Behind the scenes, HTTP requests are sent to mapbox.com and darksky.net APIs for geocode and weather forecast.',
+    stack: 'Node.js, JavaScript',
+    github: 'https://github.com/publikwerker/publik-weather-app',
+    demo: 'https://publik-weather-app.herokuapp.com/'
   }
 ];
