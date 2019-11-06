@@ -51,6 +51,7 @@ body {
   padding: 2px 10px;
   margin-top: 10px;
   font-size: 105%;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -131,10 +132,10 @@ h3 {
 .header {
   text-align: center;
   top: 0;
+  z-index: 100;
   background: #fdfdfd;
   font-family: 'Open Sans Condensed', sans-serif;
-  width: 80%;
-  margin: auto;
+  width: 90%;
   position: fixed;
 }
 
@@ -157,6 +158,10 @@ h3 {
   display: block;
   margin: 0 auto;
   width: 175px;
+}
+
+nav {
+  width: 100%;
 }
 
 .not-mobile {
@@ -235,7 +240,6 @@ h3 {
   padding-right: 20px;
   margin: 0 auto ;
   justify-content: center;
-  align-items: stretch;
 }
 
 /* Clearfix */
@@ -277,6 +281,11 @@ h3 {
 ul {
   margin: 0 auto;
 
+}
+
+#werksLink {
+  position: relative;
+  margin-top: 12px;
 }
 
 #yaldy {

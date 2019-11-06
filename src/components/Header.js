@@ -10,16 +10,19 @@ export default class Header extends React.Component {
     aboutCheck = (this.props.location.pathname === '/');
     contactCheck = (this.props.location.pathname === '/contact');
     werkCheck = (this.props.location.pathname === '/werk');
-    const projectLink = <Link to="/werk">
-        <li className="top-link button">Projects</li>
+    const projectLink = <Link to="/werk" className="top-link">
+        <li className="button">Projects</li>
       </Link>;
-    const homeLink = <Link to="/">
-         <li className="top-link button">About</li>
+    const homeLink = <Link to="/" className="top-link">
+         <li className="button">About</li>
        </Link>;
-    const contactLink = <Link to="/contact">
-        <li className="top-link button">Contact</li>
+    const contactLink = <Link to="/contact" className="top-link">
+        <li className="button">Contact</li>
        </Link>;
-    const werksLink = <a className="top-link button" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks</a>
+    const werksLink = 
+    <div className="top-link" id="werksLink" >
+      <a className="button" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks</a>
+    </div>
     return (
       <header role="banner" className="header">
         <nav role="navigation">
