@@ -53,7 +53,7 @@ export const projectList = [
     title:'Publikwerker.com',
     screenshot: learnShot,
     mockUp: publikMock,
-    description: 'Yes, it\'s true! Publikwerker designed this very page. Although simpler than most, this was still a fun project. I went for a minimally styled theme for a clean, modern look. Self-promotion is key to success in this new Gig economy.',
+    description: 'Yes, it\'s true! Publikwerker designed this very page. Although simpler than most, I went with a minimally styled theme for a clean, modern look. Self-promotion is key to success in this new Gig economy.',
     stack: 'React, Node.js, JavaScript',
     github: 'https://github.com/publikwerker/jason-portfolio',
     demo: 'https://www.publikwerker.com/'
