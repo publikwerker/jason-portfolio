@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from "./images/yaldabaothinsta.jpg";
 
 export default class Header extends React.Component {
   render() {
 
     // these variables check the URL location, 
     // and render nav buttons only if not on that page already
-    let contactCheck, aboutCheck, werkCheck;
+    let contactCheck, 
+        aboutCheck, 
+        werkCheck;
     aboutCheck = (this.props.location.pathname === '/');
     contactCheck = (this.props.location.pathname === '/contact');
     werkCheck = (this.props.location.pathname === '/werk');
@@ -25,6 +28,9 @@ export default class Header extends React.Component {
     </div>
     return (
       <header role="banner" className="header">
+        <div className="header-logo-box">
+          <img className="header-logo" src={Logo} alt="The head of a lion. The body of a worm." />
+        </div>
         <nav role="navigation">
           <ul className="top-nav row">
             {!werkCheck && projectLink}

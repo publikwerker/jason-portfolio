@@ -139,6 +139,11 @@ h3 {
   position: fixed;
 }
 
+.header-logo {
+  height: 100px;
+  width: 100px;
+}
+
 .header-title {
   text-align: center;
   font-size: 2em;
