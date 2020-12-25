@@ -30,10 +30,12 @@ export default class Header extends React.Component {
     return (
       <header role="banner" className="header">
         <div className="header-logo-box">
-          <img className="header-logo" 
-          src={Logo} 
-          alt="The head of a lion. The body of a worm." href="https://www.publikwerks.com" 
-          target="_blank" rel="noopener noreferrer"/>
+          <a href="https://www.publikwerks.com" 
+            target="_blank" rel="noopener noreferrer">
+            <img className="header-logo" 
+            src={Logo} 
+            alt="The head of a lion. The body of a worm." />
+          </a>
         </div>
         <nav role="navigation">
           <ul className="top-nav row">
