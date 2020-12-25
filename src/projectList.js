@@ -34,7 +34,7 @@ export const projectList = [
     github: 'https://github.com/thinkful-ei27/client-5NodeBodies',
     demo: 'https://www.learnventure.org/'
   }, {
-    title:'WalterCosmopolis.com',
+    title:'Walter Cosmopolis',
     screenshot: learnShot,
     mockUp: walterMock,
     description: 'The World-Famous Entertainer Walter Cosmopolis approached Publikwerker to create a CSS-heavy promotional site. It includes new CSS-animations, transitions, and even a background video. Although it is not compatible with older browsers, it is pretty slick.',
@@ -50,10 +50,10 @@ export const projectList = [
     github: 'https://github.com/publikwerker/publik-weather-app',
     demo: 'https://publik-weather-app.herokuapp.com/'
   }, {
-    title:'Publikwerker.com',
+    title:'This page',
     screenshot: learnShot,
     mockUp: publikMock,
-    description: 'Yes, it\'s true! Publikwerker designed this very page. Although simpler than most, I went with a minimally styled theme for a clean, modern look. Self-promotion is key to success in this new Gig economy.',
+    description: 'Yes, it\'s true! Publikwerker designed the very page you are surfing. Although simpler than most, I went with a minimally styled theme for a clean, modern look. Self-promotion is key to success in the new Gig economy, and cross-branding is key. In that vein, this site was styled to match the Squarespace site https://www.publikwerks.com.',
     stack: 'React, Node.js, JavaScript',
     github: 'https://github.com/publikwerker/jason-portfolio',
     demo: 'https://www.publikwerker.com/'

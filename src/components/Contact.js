@@ -7,7 +7,7 @@ import HeroBlock from './HeroBlock.js';
 
 export default class Contact extends React.Component {
   render() {
-    return(<main className="contact-body">
+    return(<main className="contact-body main-body">
       <p className="contact-text">	Yes, I welcome custom, collaborative, and commissioned work.</p>
         <HeroBlock />      
         <div className="contact-info">

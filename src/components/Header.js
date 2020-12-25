@@ -27,22 +27,20 @@ export default class Header extends React.Component {
     const discloseLink = <Link to="/disclose" className="top-link">
         <li className="button">Comic</li>
         </Link>
-    const werksLink = 
-    <div className="top-link" id="werksLink" >
-      <a className="button" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks</a>
-    </div>
     return (
       <header role="banner" className="header">
         <div className="header-logo-box">
-          <img className="header-logo" src={Logo} alt="The head of a lion. The body of a worm." />
+          <img className="header-logo" 
+          src={Logo} 
+          alt="The head of a lion. The body of a worm." href="https://www.publikwerks.com" 
+          target="_blank" rel="noopener noreferrer"/>
         </div>
         <nav role="navigation">
           <ul className="top-nav row">
-            {!werkCheck && projectLink}
             {!aboutCheck && homeLink}
+            {!werkCheck && projectLink}
             {!contactCheck && contactLink}
             {!discloseCheck && discloseLink}
-            {werksLink}
           </ul>
         </nav>
       </header>

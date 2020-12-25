@@ -7,7 +7,7 @@ export default class HeroBlock extends React.Component {
       <div className="hero-block">
         <img id="my-picture" alt="jason in a black tee standing in front of a brick wall" src={pubPik} />
         <h1 className="header-title">Jason Hoffman</h1>
-        <h2 className="bi-line">full-stack developer | fine artist</h2>
+        <h2 className="bi-line">full-stack developer</h2>
       </div>
       )}
   }
