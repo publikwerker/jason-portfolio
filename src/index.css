@@ -108,25 +108,45 @@ code {
   margin: auto;
 }
 
+
 h1 {
-  width: 100%;
-  margin: auto;
+  font: 700;  
+  font-family: "Josefin Sans"; 
   font-size: 20px;
-  font: 700;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  margin: auto;
+  width: 100%;
 }
 
 h2 {
   color: #282c34;
+  font: 700;  
+  font-family: "Josefin Sans"; 
+  font-size: 1.8em;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 20px;
+  margin: auto;
   text-transform: uppercase;
+  width: 100%;
 }
 
 h3 {
-  width: 100%;
-  text-justify: center;
-  margin: auto;
   color: #282c34;
-  text-transform: uppercase;
   font-size: 1.75em;
+  font-family: "Josefin Sans";
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 15.4px;
+  margin: auto;
+  text-transform: uppercase;
+  text-justify: center;
+  width: 100%;
 }
 
 .header {
@@ -166,12 +186,39 @@ h3 {
 }
 
 nav {
+  color: #282c34;
+  font-size: .75em;
+  font-family: "Josefin Sans";
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 1.6em;
+  margin: auto;
+  text-transform: uppercase;
+  text-justify: center;
   width: 100%;
+}
+
+nav:hover {
+  color: #090A0C;
+}
+
+nav:active {
+  color: #6D7688;
 }
 
 .not-mobile {
   display: none;
 }
+
+p { 
+  font-family: "Open Sans"; 
+  font-size: 1.3em; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 20px; 
+} 
 
 .project-box {
   display: block;
