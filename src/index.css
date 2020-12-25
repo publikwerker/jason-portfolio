@@ -142,7 +142,7 @@ h3 {
   font-style: normal; 
   font-variant: normal; 
   font-weight: 700; 
-  line-height: 15.4px;
+  line-height: 1.8em;
   margin: auto;
   text-transform: uppercase;
   text-justify: center;
@@ -176,7 +176,7 @@ h3 {
 .main-body {
   width: 100%;
   max-width: 1200px;
-  margin: 30px auto 50px;
+  margin: 130px auto 50px;
 }
 
 #my-picture {
