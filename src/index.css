@@ -83,6 +83,15 @@ code {
   font-size: 1.25em;
 }
 
+.disclose-logo {
+  width: 400px;
+  max-width: 90%;
+}
+
+.disclose-topBar {
+  margin-top: 20px;
+}
+
 .footer {
   text-justify: center;
   background: #282c34;
@@ -211,7 +220,11 @@ p {
   font-style: normal; 
   font-variant: normal; 
   font-weight: 400; 
-  line-height: 20px; 
+  line-height: 1.4em; 
+  width: 600px;
+  max-width: 90%;
+  margin: 20px auto;
+  text-align: left;
 } 
 
 .project-box {
