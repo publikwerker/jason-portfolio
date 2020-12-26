@@ -183,6 +183,14 @@ h3 {
   margin-top: 30px;
 }
 
+.indent-R {
+  padding-left: 85px;
+}
+
+.indent-S {
+  padding-left: 67px;
+}
+
 .main-body {
   width: 100%;
   max-width: 1200px;
