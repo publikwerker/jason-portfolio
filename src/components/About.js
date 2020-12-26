@@ -7,9 +7,7 @@ export default class About extends React.Component {
       <img className="about-image" alt="the bearded lady and ringleader in a police lineup" src={lineup}></img>
         <h3>About Jason <i className="smaller">a.k.a.</i> Publikwerker</h3>
         
-        <p className="body-copy">As Publikwerker, Jason Hoffman is the driving force behind Publikwerks, LLC, which offers custom website and web app design and collateral production, including logo design and branding, body copy and editing, photo and video production, and marketing and promotion.</p>
-
-        <p className="body-copy">Jason makes use of their Fine Art and Design background to craft beautiful, accessible code in the form of websites and web applications.</p>
+        <p className="body-copy">As Publikwerker, Jason Hoffman is the driving force behind Publikwerks, LLC, which offers custom website and web app design, collateral production, including logo design, branding, body copy, editing, and photo and video production.</p>
 
         <p className="body-copy">Born on the high deserts of the Colorado Front Range and raised upon the turbulent waters of the Pacific Ocean, Jason now lives in SE Portland, Oregon, wailing on a baritone ukulele, walking remote forest paths, and teaching their two children Wing Chun Kung Fu -- sometimes simultaneously.</p>
 
