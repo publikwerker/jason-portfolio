@@ -1,8 +1,9 @@
 import React from 'react';
 import Emoji from './Emoji.js';
 const discloseLogo = require('./images/discloseLogo.png');
-const alienMerch = require('./images/alienMerch.png');
-const spaceCoffee = require('./images/spaceCoffee.png');
+const discloseMerch = require('./images/discloseMerch.png');
+const discloseEspresso = require('./images/discloseEspresso.png');
+const disclosePatreon = require('./images/disclosePatreon.png');
 
 export default class Disclose extends React.Component {
   render() {
@@ -19,11 +20,15 @@ export default class Disclose extends React.Component {
 
         <div className="row">
           <a href="https://disclose.threadless.com/" target="_blank" rel="noopener noreferrer">
-            <img src={alienMerch} alt="grey alien saying check the merch, it's lit" className="disclose-cta"></img>
+            <img src={discloseMerch} alt="grey alien saying check the merch, it's lit" className="disclose-cta"></img>
           </a>
 
           <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MQL7QM8GGX6TL&item_name=normalizing+alien+relations&currency_code=USD&amount=2" target="_blank" rel="noopener noreferrer">
-            <img src={spaceCoffee} alt="Care to buy me an espresso?" className="disclose-cta"></img>
+            <img src={discloseEspresso} alt="Care to buy me an espresso?" className="disclose-cta"></img>
+          </a>
+
+          <a href="https://www.patreon.com/dot_disclose_comics" target="_blank" rel="noopener noreferrer">
+            <img src={disclosePatreon} alt="please support the longer mission on Patreon" className="disclose-cta"></img>
           </a>
         </div>
 
