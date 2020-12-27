@@ -181,6 +181,16 @@ h3 {
   margin: 25px auto 0;
 }
 
+.in-text-link {
+  color: #6D7688;
+  text-emphasis: none;
+  text-decoration: none;  
+}
+
+.in-text-link:hover {
+  color: #282c34;
+}
+
 .indent-R {
   padding-left: 103px;
   margin: 0px auto;
