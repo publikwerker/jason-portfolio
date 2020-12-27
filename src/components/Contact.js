@@ -11,14 +11,17 @@ export default class Contact extends React.Component {
       <p className="body-copy">	Yes, I welcome custom, collaborative, and commissioned work.</p>
         <HeroBlock />      
         <div className="contact-info">
-        <a href="mailto:jason.michael.hoffman@gmail.com?Subject=I%20want%20to%20hire%20you!" target="_blank" rel="noopener noreferrer"><img alt="email icon" className="contact-icon" src={emailLogo}></img></a><span className="contact-text"> jason.michael.hoffman@gmail.com</span><br />
+        <a href="mailto:hello@publikwerker.com?Subject=I%20want%20to%20hire%20you!" target="_blank" rel="noopener noreferrer"><img alt="email icon" className="contact-icon" src={emailLogo}></img></a>
+        <p className="contact-text"> hello@publikwerker.com</p>
           <a href="https://www.linkedin.com/in/publikwerker/" target="_blank" rel="noopener noreferrer">
           <img alt="linkedIn icon" className="contact-icon" src={linkedLogo}></img>
           </a>
-          <span className="contact-text">  www.linkedin.com/in/publikwerker/</span><br />
+          <p className="contact-text">  www.linkedin.com/in/publikwerker/</p>
           <a href="https://github.com/publikwerker" target="_blank" rel="noopener noreferrer">
-          <img alt="github icon" className="contact-icon" src={githubLogo}></img></a><span className="contact-text">  github.com/publikwerker</span><br />
-          <a href="https://www.instagram.com/publikwerker/" target="_blank" rel="noopener noreferrer"><img alt="instagram icon" className="contact-icon" src={instaLogo}></img></a><span className="contact-text">  @publikwerker</span><br />
+          <img alt="github icon" className="contact-icon" src={githubLogo}></img></a>
+          <p className="contact-text">  github.com/publikwerker</p>
+          <a href="https://www.instagram.com/publikwerker/" target="_blank" rel="noopener noreferrer"><img alt="instagram icon" className="contact-icon" src={instaLogo}></img></a>
+          <p className="contact-text">  @publikwerker</p>
         </div>
       </main>
     )
