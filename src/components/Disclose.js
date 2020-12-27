@@ -31,17 +31,18 @@ export default class Disclose extends React.Component {
         
         <p className="body-copy">See below.</p>
 
-        <p className="body-copy"><i>Result</i> = ( <Emoji symbol="💘" /> • ( <Emoji symbol="✒" /> ) ) • (  <Emoji symbol="💘" />  • ( <Emoji symbol="👽"/> ) ) • (  <Emoji symbol="💘" />  • ( <Emoji symbol="🪐" /> ) ) </p>
+        <p className="body-copy"><i>Result</i> <br />( <Emoji symbol="💘" /> • <Emoji symbol="✒" /> ) • (  <Emoji symbol="💘" />  • <Emoji symbol="👽"/> ) • (  <Emoji symbol="💘" />  • <Emoji symbol="🪐" /> ) </p>
 
-        <p className="indent-R">= (<Emoji symbol="💘" /> <sup>3</sup> • ( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> ) ) </p>
+        <p className="indent-R">= <Emoji symbol="💘" /> <sup>3</sup> • ( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> )</p>
 
-        <p className="body-copy"><i>Sum</i> = (  <Emoji symbol="💘" />  • ( <Emoji symbol="✒" /> ) ) + (  <Emoji symbol="💘" />  • ( <Emoji symbol="👽"/> ) ) + (  <Emoji symbol="💘" />  • ( <Emoji symbol="🪐" /> ) )</p>
+        <p className="body-copy"><i>Sum</i> <br />(  <Emoji symbol="💘" />  • <Emoji symbol="✒" /> ) + (  <Emoji symbol="💘" />  • <Emoji symbol="👽"/> ) + (  <Emoji symbol="💘" />  • <Emoji symbol="🪐" /> )</p>
 
-        <p className="indent-S">= ( 3 <Emoji symbol="💘" />  • ( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> ) )</p>
+        <p className="indent-S">= 3 <Emoji symbol="💘" />  • ( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> )</p>
 
-        <p  className="body-copy"><i>Therefor:</i><br />(<Emoji symbol="💘" /> <sup>3</sup> • ( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> ) )  > ( 3 <Emoji symbol="💘" />  • ( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> ) )</p>
 
         <p className="body-copy"><i>Proof:</i> The love is clearly exponential in the Left Hand Side and linear on the Right Hand Side.</p>
+
+        <p  className="body-copy"><i>Therefor</i> <br /><Emoji symbol="💘" /><sup>3</sup>( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> )  > 3<Emoji symbol="💘" />( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> )</p>
 
         <p className="body-copy">Assuming <Emoji symbol="💘" /> > 3, and assuming <Emoji symbol="✒" />, <Emoji symbol="👽" />, and <Emoji symbol="🪐" /> are all > 1, then the result is greater than its parts.</p>
       </div>

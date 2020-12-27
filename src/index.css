@@ -394,12 +394,12 @@ ul {
   }
   
   .indent-R {
-    padding-left: 355px;
+    padding-left: 270px;
     margin: 0px auto;
   }
   
   .indent-S {
-    padding-left: 342px;
+    padding-left: 257px;
     margin: 0px auto;
   }
 
@@ -433,5 +433,26 @@ ul {
     margin: 0 auto ;
     justify-content: space-evenly;
     align-items: stretch;
+  }
+}
+
+@media only screen and (min-width: 1290px) {
+  /* .not-mobile {
+    display: block;
+  } */
+
+  .body-copy {
+    font-size: 1.25em;
+    margin: 20px auto;
+  }
+  
+  .indent-R {
+    padding-left: 420px;
+    margin: 0px auto;
+  }
+  
+  .indent-S {
+    padding-left: 407px;
+    margin: 0px auto;
   }
 }
