@@ -26,6 +26,8 @@ export default class Disclose extends React.Component {
         <p className="body-copy">Subjected to the occasional potty humor and space nerd joke, the alien remains unfazed throughout. Dealing with humans is like dealing with small children. It requires a lot of patience. Eventually, humans will listen.</p>
 
         <p className="body-copy">New comics drop weekdays on <a href="https://www.instagram.com/dot.disclosure.comics" target="_blank"  rel="noopener noreferrer" className="in-text-link">Instagram</a>, starting January 1st, 2021.</p>
+
+        <p className="body-copy">New stickers introduced weekly on <a href="https://www.publikwerks.com/merch" target="_blank" rel="noopener noreferrer" className="in-text-link">publikwerks</a>.</p>
         </div>
 
         <div className="row">
