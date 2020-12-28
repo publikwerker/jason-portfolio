@@ -13,6 +13,7 @@ export default class Disclose extends React.Component {
       <div className="disclose-topBar">
       {/* the logo eventually be handled by a reactive header element that will swap out the logos and instaLinks according to page  */}
         <h1>dot disclose comics</h1>
+        <div className="body-copy-wrapper">
         <p className="body-copy">More than the sum of its parts*, this irreverent comic is the result of my loves for drawing, 'fringe' technologies, and all things space-related.</p>
 
         <img src={discloseLogo} className="disclose-logo" alt="A cartoon astronaut talking to a cartoon grey alien" />
@@ -26,6 +27,7 @@ export default class Disclose extends React.Component {
         <p className="body-copy">Subjected to the occasional potty humor and space nerd joke, the alien remains unfazed throughout, although dealing with humans can be hazardous to one's health.</p>
 
         <p className="body-copy">New comics drop weekdays on <a href="https://www.instagram.com/dot.disclosure.comics" target="_blank"  rel="noopener noreferrer" className="in-text-link">Instagram</a>, starting January 1st, 2021.</p>
+        </div>
 
         <div className="row">
           <a href="https://disclose.threadless.com/" target="_blank" rel="noopener noreferrer">
@@ -40,18 +42,18 @@ export default class Disclose extends React.Component {
             <img src={disclosePatreon} alt="please support the longer mission on Patreon" className="disclose-cta"></img>
           </a>
         </div>
-
+        <div className="body-copy-wrapper">
         <p className="body-copy">* <i>Please Note:</i> Although not always true, in this case the result <em>really is</em> greater than the sum of its parts.</p>
         
         <p className="body-copy">See below.</p>
 
         <p className="body-copy"><i>Result</i> <br />( <Emoji symbol="💘" /> • <Emoji symbol="✒" /> ) • (  <Emoji symbol="💘" />  • <Emoji symbol="👽"/> ) • (  <Emoji symbol="💘" />  • <Emoji symbol="🪐" /> ) </p>
 
-        <p className="indent-R">= <Emoji symbol="💘" /> <sup>3</sup> • ( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> )</p>
+        <p className="body-copy indent">= <Emoji symbol="💘" /> <sup>3</sup> • ( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> )</p>
 
         <p className="body-copy"><i>Sum</i> <br />(  <Emoji symbol="💘" />  • <Emoji symbol="✒" /> ) + (  <Emoji symbol="💘" />  • <Emoji symbol="👽"/> ) + (  <Emoji symbol="💘" />  • <Emoji symbol="🪐" /> )</p>
 
-        <p className="indent-S">= 3 <Emoji symbol="💘" />  • ( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> )</p>
+        <p className="body-copy indent">= 3 <Emoji symbol="💘" />  • ( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> )</p>
 
 
         <p className="body-copy"><i>Proof:</i> The love is clearly exponential in the Left Hand Side and linear on the Right Hand Side.</p>
@@ -59,6 +61,7 @@ export default class Disclose extends React.Component {
         <p  className="body-copy"><i>Therefore</i> <br /><Emoji symbol="💘" /><sup>3</sup>( <Emoji symbol="✒" /> )( <Emoji symbol="👽"/> )( <Emoji symbol="🪐" /> )  > 3<Emoji symbol="💘" />( <Emoji symbol="✒" />  + <Emoji symbol="👽"/> + <Emoji symbol="🪐" /> )</p>
 
         <p className="body-copy">Assuming <Emoji symbol="💘" /> > 3, and assuming <Emoji symbol="✒" />, <Emoji symbol="👽" />, and <Emoji symbol="🪐" /> are all > 1, then the result is greater than its parts.</p>
+        </div>
       </div>
       </main>
     );

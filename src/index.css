@@ -32,6 +32,11 @@ body {
   margin: 0px auto;
 }
 
+.body-copy-wrapper {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
 .body-display {
   margin-top: 50px;
 }
@@ -192,14 +197,9 @@ h3 {
 }
 
 .indent-R {
-  padding-left: 103px;
-  margin: 0px auto;
+  padding-left: 50px;
 }
 
-.indent-S {
-  padding-left: 87px;
-  margin: 0px auto;
-}
 
 .main-body {
   width: 100%;
@@ -395,16 +395,6 @@ ul {
     font-size: 1.25em;
     margin: 20px auto;
   }
-  
-  .indent-R {
-    padding-left: 270px;
-    margin: 0px auto;
-  }
-  
-  .indent-S {
-    padding-left: 257px;
-    margin: 0px auto;
-  }
 
   h3 {
     font-size: 1.75em;
@@ -447,15 +437,5 @@ ul {
   .body-copy {
     font-size: 1.25em;
     margin: 20px auto;
-  }
-  
-  .indent-R {
-    padding-left: 420px;
-    margin: 0px auto;
-  }
-  
-  .indent-S {
-    padding-left: 407px;
-    margin: 0px auto;
   }
 }
