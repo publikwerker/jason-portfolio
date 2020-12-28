@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from "./images/yaldabaothinsta.jpg";
+const Logo = require('./images/yaldabaothinsta.jpg');
 
 export default class Header extends React.Component {
   render() {
