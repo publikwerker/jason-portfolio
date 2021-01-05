@@ -8,7 +8,24 @@ const publikMock = require('./components/images/publikwerkerMock.jpg');
 const weatherMock = require('./components/images/weatherMock.jpg');
 const walterMock = require('./components/images/walterMock.jpg');
 
-export const projectList = [
+export const projectList = [ 
+  {
+    title:'This page',
+    screenshot: learnShot,
+    mockUp: publikMock,
+    description: 'Yes, it\'s true! Publikwerker designed the very page you are surfing. Although simpler than most, I went with a minimally styled theme for a clean, modern look. Self-promotion is key to success in the new Gig economy, and cross-branding is key. In that vein, this site was styled to match the Squarespace site https://www.publikwerks.com.',
+    stack: 'React, Node.js, JavaScript',
+    github: 'https://github.com/publikwerker/jason-portfolio',
+    demo: 'https://www.publikwerker.com/'
+  },  {
+    title:'Walter Cosmopolis',
+    screenshot: learnShot,
+    mockUp: walterMock,
+    description: 'The World-Famous Entertainer Walter Cosmopolis approached Publikwerker to create a CSS-heavy promotional site. It includes new CSS-animations, transitions, and even a background video. Although it is not compatible with older browsers, it is pretty slick.',
+    stack: 'React, JavaScript',
+    github: 'https://github.com/publikwerker/walter_cosmopolis2.0',
+    demo: 'https://www.WalterCosmopolis.com/'
+  },
   {
     title:'Fortune.cards',
     screenshot: fortShot,
@@ -34,14 +51,6 @@ export const projectList = [
     github: 'https://github.com/thinkful-ei27/client-5NodeBodies',
     demo: 'https://www.learnventure.org/'
   }, {
-    title:'Walter Cosmopolis',
-    screenshot: learnShot,
-    mockUp: walterMock,
-    description: 'The World-Famous Entertainer Walter Cosmopolis approached Publikwerker to create a CSS-heavy promotional site. It includes new CSS-animations, transitions, and even a background video. Although it is not compatible with older browsers, it is pretty slick.',
-    stack: 'React, JavaScript',
-    github: 'https://github.com/publikwerker/walter_cosmopolis2.0',
-    demo: 'https://www.WalterCosmopolis.com/'
-  }, {
     title: 'Publik Weather App',
     screenshot: learnShot,
     mockUp: weatherMock,
@@ -49,13 +58,5 @@ export const projectList = [
     stack: 'Node.js, JavaScript',
     github: 'https://github.com/publikwerker/publik-weather-app',
     demo: 'https://publik-weather-app.herokuapp.com/'
-  }, {
-    title:'This page',
-    screenshot: learnShot,
-    mockUp: publikMock,
-    description: 'Yes, it\'s true! Publikwerker designed the very page you are surfing. Although simpler than most, I went with a minimally styled theme for a clean, modern look. Self-promotion is key to success in the new Gig economy, and cross-branding is key. In that vein, this site was styled to match the Squarespace site https://www.publikwerks.com.',
-    stack: 'React, Node.js, JavaScript',
-    github: 'https://github.com/publikwerker/jason-portfolio',
-    demo: 'https://www.publikwerker.com/'
-  }, 
+  },
 ];

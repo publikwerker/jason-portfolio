@@ -10,24 +10,27 @@ export default class Disclose extends React.Component {
   render() {
     return (
       <main className="main-body">
-      <div className="disclose-topBar">
-        <h1>dot disclose comics</h1>
-        <div className="body-copy-wrapper">
-        <p className="body-copy">More than the sum of its parts<sup>*</sup>, this irreverent comic is the result of my loves for drawing, 'fringe' technologies, and all things space-related.</p>
+        <div className="disclose-topBar">
+          <h1>dot disclose comics</h1>
+          <div className="body-copy-wrapper">
+          <p className="body-copy">More than the sum of its parts<sup>*</sup>, this irreverent comic is the result of the loves of drawing, 'fringe' technologies, and all things space-related.</p>
 
-        <img src={discloseLogo} className="disclose-logo" alt="A cartoon astronaut asks a cartoon grey alien why they are on this planet" />
+          <img src={discloseLogo} className="disclose-logo" alt="A cartoon astronaut asks a cartoon grey alien why they are on this planet" />
 
-        <p className="body-copy">A cheeky grey alien and a space-abiding computer programmer on government contract discuss the nature of reality.</p>
+          <p className="body-copy">A cheeky grey alien and a space-abiding computer programmer on government contract discuss the nature of reality.</p>
 
-        <img src={discloseComic} className="disclose-logo" alt="for our intrepid programmer, satellite interface refers to a physical touchpad on the side of a satellite" />
+          <img src={discloseComic} className="disclose-logo" alt="for our intrepid programmer, satellite interface refers to a physical touchpad on the side of a satellite" />
 
-        <p className="body-copy">The lonely programmer seems to hip to the latest conspiracies on reddit, but their perception is filtered by the internet. Who knows what's true, anymore?</p>
-        
-        <p className="body-copy">Subjected to the occasional potty humor and space nerd joke, the alien remains unfazed throughout. Dealing with humans is like dealing with small children. It requires a lot of patience. Eventually, humans will listen.</p>
+          <p className="body-copy">The lonely programmer seems to hip to the latest conspiracies on reddit, but their perception is filtered by the internet. Who knows what's true, anymore?</p>
+          
+          <p className="body-copy">Subjected to the occasional potty humor and space nerd joke, the alien remains unfazed throughout. Dealing with humans is like dealing with small children. It requires a lot of patience. The hope is that eventually, humans will be ready to listen.</p>
 
-        <p className="body-copy">New comics drop weekdays on <a href="https://www.instagram.com/dot_disclose_comics" target="_blank"  rel="noopener noreferrer" className="in-text-link">Instagram</a>, starting January 1st, 2021.</p>
+          <p className="body-copy">New comics drop weekdays on <a href="https://www.instagram.com/dot_disclose_comics" target="_blank"  rel="noopener noreferrer" className="in-text-link">Instagram</a>, starting January 1st, 2021.</p>
 
-        <p className="body-copy">New stickers introduced weekly on <a href="https://www.publikwerks.com/merch" target="_blank" rel="noopener noreferrer" className="in-text-link">publikwerks</a>.</p>
+          <p className="body-copy">New stickers introduced weekly on <a href="https://www.publikwerks.com/merch" target="_blank" rel="noopener noreferrer" className="in-text-link">publikwerks</a>.</p>
+          </div>
+
+          <p className="body-copy">New designs introduced weekly on <a href="https://disclose.threadless.com" target="_blank" rel="noopener noreferrer" className="in-text-link">Threadless.com</a>.</p>
         </div>
 
         <div className="row">
