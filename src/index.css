@@ -186,6 +186,10 @@ h3 {
   margin: 25px auto 0;
 }
 
+.hero-block {
+  padding-top: 20px;
+}
+
 .in-text-link {
   color: #6D7688;
   text-emphasis: none;
