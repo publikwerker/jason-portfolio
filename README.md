@@ -4,4 +4,6 @@
 Although simpler than most, this was still a fun project. I went for a minimally styled theme for a clean, modern look.
 It's just ReactJS and Node.
 
+![mockup of website](https://github.com/publikwerker/jason-portfolio/blob/master/src/components/images/publikwerkerMock.jpg)
+
 You can see the live site at https://www.publikwerker.com
