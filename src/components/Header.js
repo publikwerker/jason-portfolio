@@ -30,7 +30,7 @@ export default class Header extends React.Component {
         <li className="button">Comic</li>
         </Link>
     const voxelartLink = <Link to="/voxelart" className="top-link">
-        <li className="button">Voxel Art</li>
+        <li className="button">Voxels</li>
         </Link>
     return (
       <header role="banner" className="header">

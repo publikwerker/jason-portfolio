@@ -1,10 +1,11 @@
 import React from 'react';
 const lineup = require('./images/publikwerker16r.jpg');
+const kawai = require('./images/PSSkawai.png');
 
 export default class About extends React.Component {
   render() {
     return(<main className="main-body">
-      <img className="about-image" alt="the bearded lady and ringleader in a police lineup" src={lineup}></img>
+      <img className="about-image" alt="Primate Social Society NFT #690: A drawing of a chimpanzee wearing a green flannel shirt, black puffy vest, and pink kitty headphones" src={kawai}></img>
         <h3>About Jason <i className="smaller">a.k.a.</i> Publikwerker</h3>
         
         <p className="body-copy">As Publikwerker, Jason Hoffman is the driving force behind Publikwerks, LLC, which offers custom website and web app design, collateral production, including logo design, branding, body copy, editing, and photo and video production.</p>
