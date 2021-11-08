@@ -10,11 +10,13 @@ export default class Header extends React.Component {
     let contactCheck, 
         aboutCheck, 
         werkCheck,
-        discloseCheck;
+        discloseCheck,
+        voxelartCheck;
     aboutCheck = (this.props.location.pathname === '/');
     contactCheck = (this.props.location.pathname === '/contact');
     discloseCheck = (this.props.location.pathname === '/disclose');
     werkCheck = (this.props.location.pathname === '/werk');
+    voxelartCheck = (this.props.location.pathname === '/voxelart');
     const projectLink = <Link to="/werk" className="top-link">
         <li className="button">Projects</li>
       </Link>;
@@ -26,6 +28,9 @@ export default class Header extends React.Component {
        </Link>;
     const discloseLink = <Link to="/disclose" className="top-link">
         <li className="button">Comic</li>
+        </Link>
+    const voxelartLink = <Link to="/voxelart" className="top-link">
+        <li className="button">Voxel Art</li>
         </Link>
     return (
       <header role="banner" className="header">
@@ -43,6 +48,7 @@ export default class Header extends React.Component {
             {!werkCheck && projectLink}
             {!contactCheck && contactLink}
             {!discloseCheck && discloseLink}
+            {!voxelartCheck && voxelartLink}
           </ul>
         </nav>
       </header>

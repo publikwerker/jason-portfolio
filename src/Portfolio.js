@@ -6,6 +6,7 @@ import Body from './components/Body.js';
 import Contact from './components/Contact.js';
 import Disclose from './components/Disclose.js';
 import Footer from './components/Footer.js';
+import Voxelart from './components/Voxelart.js';
 
 export default class Portfolio extends Component {
   
@@ -18,6 +19,7 @@ export default class Portfolio extends Component {
           <Route exact path="/werk" component={Body} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/disclose" component={Disclose} />
+          <Route exact path="/voxelart" component={Voxelart} />
           <Route path="/" component={Footer} />
         </Router>
       </div>

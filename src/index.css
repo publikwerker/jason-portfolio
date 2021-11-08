@@ -351,6 +351,15 @@ p {
   font-style: oblique;
 }
 
+.stressed {
+  font-size: 110%;
+  font-style: italic;
+  text-decoration: underline;
+  color: hsl(241, 79%, 17%);
+  margin-left: -.05em;
+  padding-right: .1em;
+}
+
 .top-link {
   display: inline-block;
   font-size: 1.25em;
