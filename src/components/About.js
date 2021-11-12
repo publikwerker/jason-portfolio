@@ -1,5 +1,4 @@
 import React from 'react';
-const lineup = require('./images/publikwerker16r.jpg');
 const kawai = require('./images/PSSkawai.png');
 
 export default class About extends React.Component {

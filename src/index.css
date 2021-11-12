@@ -381,6 +381,17 @@ ul {
 
 }
 
+.vox-project-box {
+  display: block;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  margin: 30px auto 20px;
+  padding: 10px 0 20px;
+  text-align: center;
+}
+
+
 #werksLink {
   position: relative;
   margin-top: 12px;

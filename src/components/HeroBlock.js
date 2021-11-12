@@ -2,7 +2,6 @@ import React from 'react';
 
 export default class HeroBlock extends React.Component { 
   render(){
-    const pubPik = require(('./images/HeadShotzJasonsqbw.jpg'));
     const headShot = require('./images/PSSsailor.png');
 
     return (
