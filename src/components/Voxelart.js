@@ -6,18 +6,18 @@ export default class Voxelart extends React.Component {
 
         let projectDisplay=[];
         projectListVox.forEach( ( project, index ) => {
-            projectDisplay.push(<section key={ index } className="project-box">
+            projectDisplay.push(<section key={ index } className="vox-project-box">
                 <h3 className="project-title">{ project.title }</h3>
-                <video width="375px" controls>
-                    <source src={project.gif} />
-                </video>
+                <img className="voxel-image" alt={project.description} src={project.gif}></img>
             </section> )
         })
         return (
 
             <main className="main-body">
                 <h1>Werkin' to Build the Metaverse One Voxel at a Time!</h1>
-                <p className="body-copy">What is a Voxel, you ask? It's like a 3D pixel. It's a <span className="stressed">vo</span>luminous pi<span className="stressed">xel</span>.</p>
+                <p className="body-copy">"What is a Voxel," you ask?<br/>
+                It's like a 3D pixel.<br/>
+                It's a <span className="stressed">vo</span>luminous pi<span className="stressed">xel</span>.</p>
 
                 <div className="row showcase">
                     {projectDisplay}
