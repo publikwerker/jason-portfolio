@@ -1,6 +1,7 @@
 const threeDGIF = require('./components/images/3d_glasses.gif');
 const antlerGIF = require('./components/images/antlers.gif');
 const campGIF = require('./components/images/campfire.gif');
+const spaceChimpGIF = require('./components/images/space_chimp.gif');
 
 export const projectListVox = [
     {
@@ -62,5 +63,10 @@ export const projectListVox = [
         title:'Froggo Hat',
         gif: campGIF,
         description: 'A ring of stones surrounding a roaring blaze with smoke swirling above'
+    },
+    {
+        title:'Space Chimp',
+        gif: spaceChimpGIF,
+        description: 'A chimpanzee wearing an Apollo era space helmet.'
     },
 ];
