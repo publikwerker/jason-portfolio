@@ -103,6 +103,15 @@ code {
   margin-top: 20px;
 }
 
+figcaption {
+  width: 250px;
+  margin: 0px auto;
+}
+
+figure {
+  text-align: center;
+}
+
 .footer {
   text-justify: center;
   width: 100%;

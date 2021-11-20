@@ -8,11 +8,14 @@ export default class Voxelart extends React.Component {
         projectListVox.forEach( ( project, index ) => {
             let projectImages=[];
             project.gif.forEach( (image) => {
-                projectImages.push(                <img className="voxel-image" alt={project.description} src={image}></img>)
+                projectImages.push(                <img className="voxel-image" alt={project.alt} src={image}></img>)
             });
             projectDisplay.push(<section key={ index } className="vox-project-box">
                 <h3 className="project-title">{ project.title }</h3>
-               {projectImages}
+                <figure>
+                    {projectImages}
+                    <figcaption>{project.description}</figcaption>
+                </figure>
             </section> )
         })
         return (
