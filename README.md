@@ -1,6 +1,6 @@
 ## This is the portfolio website for Jason Hoffman
 ### _a.k.a._ Publikwerker
-![dapper head shot of Jason](https://github.com/publikwerker/jason-portfolio/blob/master/src/components/images/PSSkawaii.png)
+![dapper head shot of Jason](https://github.com/publikwerker/jason-portfolio/blob/master/src/components/images/PSSkawai.png)
 
 
 Although simpler than most, this was still a fun project. I went for a minimally styled theme for a clean, modern look.
